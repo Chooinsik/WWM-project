@@ -47,7 +47,9 @@ DEBUG = True
 ALLOWED_HOSTS = ["port-0-wwm-project-13082024l70nufe3.gksl1.cloudtype.app"]
 
 
+
 SITE_ID=1
+
 
 
 CORS_ALLOW_CREDENTIALS = True
@@ -58,7 +60,7 @@ CORS_ALLOW_CREDENTIALS = True
 
 CSRF_TRUSTED_ORIGINS = [
     'https://port-0-wwm-project-13082024l70nufe3.gksl1.cloudtype.app'
-]
+
 
 CORS_ORIGIN_WHITELIST = [
     'https://port-0-wwm-project-13082024l70nufe3.gksl1.cloudtype.app:8000',
