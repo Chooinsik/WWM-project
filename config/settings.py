@@ -55,16 +55,13 @@ CORS_ORIGIN_ALLOW_ALL = True
 
 CORS_ALLOW_CREDENTIALS = True
 
-CSRF_TRUSTED_ORIGINS = ['port-0-wwm-project-13082024l70nufe3.gksl1.cloudtype.app']
+CSRF_TRUSTED_ORIGINS = [
+    'https://port-0-wwm-project-13082024l70nufe3.gksl1.cloudtype.app'
+],
 
-CORS_REPLACE_HTTPS_REFERER = True
-
-CSRF_COOKIE_DOMAIN = 'port-0-wwm-project-13082024l70nufe3.gksl1.cloudtype.app'
-
-CORS_ORIGIN_WHITELIST = (
-    'http://port-0-wwm-project-13082024l70nufe3.gksl1.cloudtype.app/',
-    'port-0-wwm-project-13082024l70nufe3.gksl1.cloudtype.app',
-)
+CORS_ORIGIN_WHITELIST = [
+    'https://port-0-wwm-project-13082024l70nufe3.gksl1.cloudtype.app:8000',
+]
 
 
 # Application definition
