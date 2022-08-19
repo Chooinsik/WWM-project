@@ -66,7 +66,6 @@ CORS_ORIGIN_WHITELIST = [
     'https://port-0-wwm-project-13082024l70nufe3.gksl1.cloudtype.app:8000',
 ]
 
-
 # Application definition
 
 INSTALLED_APPS = [
