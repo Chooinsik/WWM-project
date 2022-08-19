@@ -44,14 +44,12 @@ SECRET_KEY = get_secret("SECRET_KEY")
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["port-0-wwm-project-13082024l70nufe3.gksl1.cloudtype.app", "*", "127.0.0.1"]
+ALLOWED_HOSTS = ["port-0-wwm-project-13082024l70nufe3.gksl1.cloudtype.app"]
 
 
 SITE_ID=1
 
 
-<<<<<<< HEAD
-=======
 CORS_ALLOW_CREDENTIALS = True
 
 CORS_ORIGIN_ALLOW_ALL = True
@@ -66,13 +64,6 @@ CORS_ORIGIN_WHITELIST = [
     'https://port-0-wwm-project-13082024l70nufe3.gksl1.cloudtype.app:8000',
 ]
 
-
-CORS_ALLOW_CREDENTIALS = True
-
-CORS_ORIGIN_ALLOW_ALL = True
-
-CORS_ALLOW_CREDENTIALS = True
->>>>>>> 5ab953128d01b9abda8b0681154d9128fe13e3fc
 
 # Application definition
 
